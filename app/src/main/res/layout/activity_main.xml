@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Bhabhut.parivahan.MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+
+
+
+           <EditText
+               android:id="@+id/Registration_No"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:padding="25dp"
+               android:hint="Registration_No"/>
+           <EditText
+               android:id="@+id/Owner_Name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:padding="25dp"
+               android:inputType="textPersonName"
+               android:hint="Owner_Name"/>
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Registration_Date"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="date"
+
+               android:hint="Registration_Date"/>
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Chassis_No"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="Chassis_No"/>
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Vehicle_Class"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="Vehicle_Class" />
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Model"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="Model" />
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Engine_No"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="Engine_No" />
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/Fuel"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="Fuel" />
+           <EditText
+               android:padding="25dp"
+               android:id="@+id/RC_Status"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textPersonName"
+               android:hint="RC_Status"
+               android:text="Active"/>
+           <Button
+               android:padding="25dp"
+               android:id="@+id/button3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+
+               android:onClick="register"
+
+               android:ems="10"
+               android:text="Register"
+               android:textSize="20dp"
+               />/>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+
+</RelativeLayout>
